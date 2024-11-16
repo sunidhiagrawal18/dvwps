@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER William Viana <vianasw@gmail.com>
 
 RUN apt-get update && apt-get install -y apache2 php5-mysql php5 libapache2-mod-php5 php5-mcrypt php5-gd supervisor wget rsync
